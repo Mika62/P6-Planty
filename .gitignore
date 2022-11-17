@@ -1,0 +1,32 @@
+# Core
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Themes
+/wp-content/themes/twenty*/
+/wp-content/themes/blankslate/
+
+# Plugins
+/wp-content/plugins/hello.php
+/wp-content/plugins/akismet/
+
+# Uploads
+/wp-content/uploads/
+
+# Log
+*.log
+
+# htaccess
+/.htaccess
+
+# Apple
+.DS_Store
