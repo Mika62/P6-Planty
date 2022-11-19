@@ -12,12 +12,7 @@
 /xmlrpc.php
 
 # Themes
-/wp-content/themes/twenty*/
 /wp-content/themes/blankslate/
-
-# Plugins
-/wp-content/plugins/hello.php
-/wp-content/plugins/akismet/
 
 # Log
 .log
