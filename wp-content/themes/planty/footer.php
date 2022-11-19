@@ -9,7 +9,7 @@
             footer--colored footer--drawn
         <?php endif; ?>
     ">
-        <a href="#" class="footer__link">Mentions légales</a>
+        <a href="<?= get_permalink(get_page_by_path('mentions-legales')) ?>" class="footer__link">Mentions légales</a>
     </footer>
     <!-- /Footer -->
 
