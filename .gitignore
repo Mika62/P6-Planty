@@ -19,14 +19,11 @@
 /wp-content/plugins/hello.php
 /wp-content/plugins/akismet/
 
-# Uploads
-/wp-content/uploads/
-
 # Log
-*.log
+.log
 
 # htaccess
-/.htaccess
+.htaccess
 
 # Apple
 .DS_Store
