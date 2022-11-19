@@ -260,6 +260,51 @@ button {
     height: 400px;
 }
 
+.drawing--flower {
+    background-image: url("/wp-content/uploads/2022/11/group_2.png");
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Form */
+.form__field {
+    margin-bottom: 20px;
+}
+
+.form__textarea,
+.form__input {
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .04);
+    border-radius: 7px;
+    padding: 23px;
+}
+
+.form__field--drawing {
+    position: relative;
+}
+
+.form__field--drawing .form__textarea,
+.form__field--drawing .form__input {
+    position: relative;
+    z-index: 1;
+}
+
+.form__field--drawing::after {
+    position: absolute;
+    left: -85px;
+    bottom: -35px;
+    content: "";
+    background-image: url("../img/drawing/group_16.png");
+    height: 170px;
+    width: 150px;
+}
+
+.form__btn {
+    text-align: center;
+}
+
 
 /* Heading */
 .heading {
@@ -496,6 +541,75 @@ button {
 }
 
 
+/* Team */
+.team {
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.team__title {
+    text-align: center;
+    padding: 20px;
+}
+
+.team__container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.team__item {
+    text-align: center;
+    z-index: 1;
+}
+
+.team__item-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+}
+
+.team__item-title {
+    margin-bottom: 7px;
+}
+
+.team__drawing.drawing--left-branch {
+    position: absolute;
+    right: 20px;
+    bottom: -13px;
+    width: 200px;
+    height: 250px;
+}
+
+.team__mask {
+    position: absolute;
+    top: -65px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.team__mask svg {
+    width: 100%;
+}
+
+
+/* Contact */
+.contact {
+    padding: 50px 0;
+    background-color: var(--primary-bg);
+}
+
+.contact__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
 /* Responsive */
 @media screen and (max-width: 1250px) {
     /* Heading */
@@ -522,6 +636,12 @@ button {
 
     .testimonial__item-text {
         max-width: 390px;
+    }
+
+    
+    /* Team */
+    .team__container {
+        margin-bottom: 140px;
     }
 }
 
